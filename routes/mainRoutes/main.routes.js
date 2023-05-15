@@ -19,5 +19,6 @@ router.use("/posts", posts);
 router.use("/user", users);
 router.use("/upload", upload);
 router.use("/chat", chat);
+router.use("/chat", "123");
 
 module.exports = { router };
